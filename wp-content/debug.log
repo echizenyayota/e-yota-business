@@ -330,3 +330,5 @@
 [10-Dec-2016 09:18:55 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /var/www/wordpress/wp-admin/includes/update.php on line 115
 [10-Dec-2016 09:19:16 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /var/www/wordpress/wp-admin/includes/update.php on line 115
 [10-Dec-2016 12:15:17 UTC] PHP Notice:  Undefined index: pickupnav in /var/www/wordpress/wp-content/themes/mytheme/sidebar.php on line 10
+[10-Dec-2016 12:19:31 UTC] PHP Notice:  Undefined index: pickupnav in /var/www/wordpress/wp-content/themes/mytheme/sidebar.php on line 4
+[10-Dec-2016 12:23:15 UTC] PHP Notice:  Undefined index: pickupnav in /var/www/wordpress/wp-content/themes/mytheme/sidebar.php on line 4
