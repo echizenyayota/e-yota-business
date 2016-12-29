@@ -1062,3 +1062,16 @@ iframe {
   display: inline-block;
   text-indent: -9999px;
 }
+
+/*　------------------------　固定ページ　------------------------　*/
+
+/* コンテンツメニュー */
+.mymenu-page	{border: solid 2px #dddddd}
+
+.mymenu-page h2	{margin: 0;
+	padding: 10px}
+
+.mymenu-page li a	{padding: 20px 10px;
+	border-bottom: solid 1px #dddddd}
+
+.mymenu-page li:last-child a	{border: none}
