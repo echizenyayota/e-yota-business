@@ -1066,12 +1066,20 @@ iframe {
 /*　------------------------　固定ページ　------------------------　*/
 
 /* コンテンツメニュー */
-.mymenu-page	{border: solid 2px #dddddd}
+.mymenu .mymenu-page	{
+  border: solid 2px #dddddd;
+}
 
-.mymenu-page h2	{margin: 0;
-	padding: 10px}
+.mymenu .mymenu-page h2	{
+  margin: 0;
+	padding: 10px;
+}
 
-.mymenu-page li a	{padding: 20px 10px;
-	border-bottom: solid 1px #dddddd}
+.mymenu .mymenu-page li a	{
+  padding: 20px 10px;
+	border-bottom: solid 1px #dddddd;
+}
 
-.mymenu-page li:last-child a	{border: none}
+.mymenu .mymenu-page li:last-child a	{
+  border: none;
+}

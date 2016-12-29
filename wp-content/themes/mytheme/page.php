@@ -85,10 +85,10 @@
 
   <div class="sub">
     <aside class="mymenu mymenu-page">
-  	<h2>CONTENTS</h2>
-  	<?php wp_nav_menu( array(
-  		'theme_location' => 'pagenav'
-  	) ); ?>
+    	<h2>CONTENTS</h2>
+    	<?php wp_nav_menu( array(
+    		'theme_location' => 'pagenav'
+    	) ); ?>
   	</aside>
   </div>
 </div>
