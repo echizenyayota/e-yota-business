@@ -1066,21 +1066,21 @@ iframe {
 /*　------------------------　固定ページ　------------------------　*/
 
 /* コンテンツメニュー */
-.mymenu .mymenu-page	{
+.mymenu-page	{
   border: solid 2px #dddddd;
 }
 
-.mymenu .mymenu-page h2	{
+.mymenu-page h2	{
   margin: 0;
 	padding: 10px;
 }
 
-.mymenu .mymenu-page li a	{
+.mymenu-page li a	{
   padding: 20px 10px;
 	border-bottom: solid 1px #dddddd;
 }
 
-.mymenu .mymenu-page li:last-child a	{
+.mymenu-page li:last-child a	{
   border: none;
 }
 
