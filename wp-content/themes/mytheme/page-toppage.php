@@ -30,7 +30,23 @@
     <?php wp_reset_postdata(); endif; ?>
   </div>
   <div class="sub">
-    SIDEBAR
+    <?php
+      $myposts = get_posts(array (
+        'post_type' => 'post',
+        'post_per_page' =>'7'
+      ));
+      if ($myposts) : ?>
+      <aside class="mymenu mymenu-news">
+        <h2>お知らせ</h2>
+          <ul>
+            <?php foreach ($myposts as $post): setup_postdata($post); ?>
+            <li>
+              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            </li>
+          <?php endforeach; ?>
+          </ul>
+      </aside>
+      <?php wp_reset_postdata();  endif;?>
   </div>
 </div>
 

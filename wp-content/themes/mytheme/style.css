@@ -1136,3 +1136,28 @@ iframe {
     padding-left: 15px;
   }
 }
+
+/* トップページのお知らせメニュー */
+.mymenu-news {
+  padding: 20px;
+  border: solid 1px #dddddd;
+}
+
+.mymenu-news ul {
+  list-style: none;
+}
+
+.mynews-li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.mymenu-news li:before {
+  position: absolute;
+  left: 0px;
+  top: 12px;
+  content: '\f138';
+  color: #aaaaaa;
+  font-family: 'FontAwesome';
+  line-height: 1;
+}
