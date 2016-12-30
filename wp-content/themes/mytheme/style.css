@@ -1086,6 +1086,15 @@ iframe {
 
 /*　------------------------　トップページ　------------------------　*/
 
+/* トップ画像 */
+.hero-img {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0 10px;
+  background-color: #dddddd;
+}
+
+
 /* トップページのコンテンツメニュー */
 
 .mymenu-top li a {

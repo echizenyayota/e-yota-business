@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
+  <div class="hero-img"></div>
   <div class="contents">
     <?php
       $location_name = 'pagenav';
