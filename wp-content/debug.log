@@ -352,3 +352,7 @@
 [29-Dec-2016 09:43:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/mytheme/page-toppage.php on line 54
 [29-Dec-2016 09:44:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/mytheme/page-toppage.php on line 54
 [29-Dec-2016 09:47:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/mytheme/page-toppage.php on line 54
+[29-Dec-2016 10:46:35 UTC] PHP Notice:  Undefined index: post_id in /var/www/wordpress/wp-content/plugins/pixabay-images/pixabay-images.php on line 239
+[29-Dec-2016 10:46:37 UTC] PHP Notice:  Trying to get property of non-object in /var/www/wordpress/wp-includes/post.php on line 3675
+[29-Dec-2016 10:46:38 UTC] PHP Notice:  Trying to get property of non-object in /var/www/wordpress/wp-includes/post.php on line 3675
+[29-Dec-2016 10:57:23 UTC] PHP Parse error:  syntax error, unexpected ':' in /var/www/wordpress/wp-content/themes/mytheme/page-toppage.php on line 4

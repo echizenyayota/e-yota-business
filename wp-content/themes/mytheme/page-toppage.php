@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <div class="container">
-  <div class="hero-img"></div>
+  <?php if (get_header_image()): ?>
+    <div class="hero-img" style="background-image:url(<?php header_image(); ?>)"></div>
+  <?php endif; ?>
   <div class="contents">
     <?php
       $location_name = 'pagenav';

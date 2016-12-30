@@ -1170,3 +1170,19 @@ iframe {
   font-family: 'FontAwesome';
   line-height: 1;
 }
+
+/* ヘッダー画像 */
+.hero-img {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0 10px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media (max-width: 599px) {
+  .hero-img {
+    height: 200px;
+  }
+}
